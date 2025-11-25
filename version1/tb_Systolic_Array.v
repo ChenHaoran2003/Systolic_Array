@@ -1,7 +1,7 @@
 module tb_Systolic_Array();
 
 localparam WIDTH = 8;
-localparam ARRAY_SIZE = 5;
+localparam ARRAY_SIZE = 4;
 // 定义结果位宽：2*WIDTH (乘法扩位) + log2(ARRAY_SIZE) (累加扩位)
 localparam RES_WIDTH = 2*WIDTH + $clog2(ARRAY_SIZE);
 
