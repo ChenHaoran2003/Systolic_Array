@@ -3,6 +3,7 @@
 ## 项目组成：
 本项目有两个版本，其中`version1`版本是4x4大小的8bit有符号数脉动阵列，`version2`版本是可配置大小与位宽的有符号数脉动阵列。两个版本的项目子目录结构一致。
 
+```
 version1
 |-- tb_Systolic_Array.v：testbench文件
 |-- tb_Systolic_Array_Random.v：随机生成测试矩阵的testbench文件，使用此文件作为testbench会覆盖`test.txt`文件内容
@@ -18,6 +19,7 @@ version2
 |-- Processing_Element.v：处理单元RTL
 |-- test.txt：存放仿真时输入矩阵，保存仿真结果
 |-- example.txt：可供参考的矩阵
+```
 
 ## 仿真环境：
 - Ubuntu 22.04
