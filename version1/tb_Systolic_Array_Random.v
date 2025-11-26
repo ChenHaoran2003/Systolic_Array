@@ -43,7 +43,7 @@ initial begin
     #10
     en  = 1;
     
-    #300; 
+    #(ARRAY_SIZE*40);
     
     // 4. 打印结果
     print_matrices();
